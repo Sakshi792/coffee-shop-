@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Test</title>
+  <link href="./output.css" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body  id="pageBody" class=" min-h-screen bg-[#DDC2A0] text-[#603808] overflow-x-hidden transition-colors duration-500 ">
+
+    <!-- header starts here -->
+      <header class="h-[90px]">
+    <div class="flex justify-between items-center"> 
+        <h1  class="text-[#ffffff] text-[35px] font-bold  pl-40 mt-3  ">
+        Coffee 
+        </h1>
+        <div class="flex text-center justify-center gap-30 pr-8 mt-6 text-[#ffffff] font-bold text-[18px] ">
+          
+            <h1 class="hidden md:block ">Home</h1>
+            <h1 class="hidden md:block" >About Us </h1>
+            <h1 class="hidden md:block">Menu</h1>
+            <h1 class="hidden md:block">Testimonials</h1>
+            <h1 class="hidden md:block">Gallery</h1>
+            <h1 class="hidden md:block">Contact Us</h1>
+            <link href="#" >
+            <i class="fa-solid fa-bars text-[25px]"></i></link>
+        </div>
+    </div>
+    </header>
+    <!-- header end here -->
+     <h2 class="text-[45px] md:text-[70px] font-bold best-seller-animation best-seller-shine flex justify-center items-center mb-[-90px]">
+  Best Seller
+</h2>
+    <!-- maain section image starts here -->
+    <!-- 1st image start here -->
+     <section id="coffeeSlider" class="w-full max-w-full min-h-screen pt-15 flex  overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar ">
+      <div class=" coffee-slide min-w-full flex justify-center items-center snap-center flex-col md:flex-row min-h-screen gap-10 px-6  " data-bg="#DDC2A0">
+        <div>
+          <h2 class="text-[42px] mb-4 text-amber-50 font-bold text-left translate-x-[-100px]">Cappiccino</h2>
+          <p class="font-bold text-[25px]  w-[250px] text-[#FFF8F0] text-left translate-x-[-100px] ">
+          Rich espresso blended with steamed milk and creamy foam, creating a smooth, balanced coffee with a comforting taste.</p>
+        </div>
+        <img src="c:\Users\Dell\OneDrive\Desktop\images\cup-removebg-preview.png" class="w-[320px] md:w-[500px] " alt="Cappuccino">
+      </div>
+      <div class="hidden lg:flex items-center justify-center">
+      <button id="nextBtn" class="absolute right-[8%] top-[58%] bg-[#FFF8EF] text-[#6F4E37] rounded-full text-[40px] w-[60px] h-[60px]  ">
+        <i class="fa-solid fa-circle-arrow-right  "></i>
+      </button>
+    </div>
+
+    <!-- 1st image end here -->
+
+      <!-- 2nd image start here -->
+      <div class="coffee-slide min-w-full flex justify-center items-center snap-center flex-col md:flex-row min-h-screen gap-10 px-6 " data-bg="#3E0C02">
+        <div>
+          <h1 class="font-bold text-[42px] mb-4 text-amber-50  text-left translate-x-[-100px]">Cold Coffee</h1>
+        <p class="font-bold text-[25px] w-[250px] text-amber-50 text-left translate-x-[-100px]">  A chilled and creamy coffee blended with milk, ice, and rich coffee flavor. Smooth, refreshing, and perfect for a cool break.</p>
+      </div>
+        <img src="c:\Users\Dell\OneDrive\Desktop\images\s11728_cold_coffee_isolated_on_white_background_4c14cfac-1154-4664-8c53-d4f019c2ccc9_0-photoroom.png" class="w-[450px]" alt="Cold Coffee">
+      </div>
+
+      <!-- 2nd image end here -->
+
+
+    <!-- 3rd image start here  -->
+      <div class="coffee-slide min-w-full flex flex-col md:flex-row justify-center items-center snap-center" data-bg="#603F2C" >
+        <div>
+          <h1 class="font-bold text-[42px] mb-4 text-amber-50  text-left translate-x-[-100px]">Filter Coffee</h1>
+          <p class="font-bold text-[25px] w-[250px] text-amber-50 text-left translate-x-[-100px]">A traditional South Indian coffee brewed strong and mixed with hot milk for a rich aroma, bold taste, and smooth finish.</p>
+        </div>
+        <img src="c:\Users\Dell\OneDrive\Desktop\images\Recipes_-_South_Indian_Filter_Coffee-removebg-preview.png" class="w-112.5" alt="Filter Coffee">
+      </div>
+    </section> 
+    <!-- 3rd image end here -->
+    <!-- main section imag end here -->
+
+    <!-- hero section starts here -->
+     <div class="font-bold text-[#ffffff] text-center">
+      <h1 class="text-[30px]">Brewed Fresh for Every Mood</h1>
+      <p class="font-normal text-[20px]">A cozy blend of rich flavors, fresh brews, and handpicked favorites made to match every coffee mood.</p>
+    </div>
+    <div class="flex justify-center items-center gap-10 mt-10 bg-[#F1E3C8] h-[600px] w-[90%] mx-auto overflow-hidden ">
+
+       <div class="text-amber-50  flex justify-center items-center gap-10  bg-[#E7D8B7] h-[600px] w-[90%] mx-auto overflow-hidden rounded flex-col ">
+       <i class="fa-solid fa-mug-hot text-[40px] font-bold text-[#ffffff]"></i>
+        <p class=" text-center  text-[25px] pt-10px text-[#603808]  ">Freshly brewed cups crafted with passion, bringing rich flavors and memorable coffee moments every day.</p>
+         <i class="fa-solid fa-face-smile text-[40px] font-bold  text-[#ffffff]"></i>
+        <p class=" text-center pt-[20px] text-[25px] text-[#603808]">Recognized for premium coffee, exceptional service, and an atmosphere customers love to revisit
+
+        </p>
+    </div>
+      <div class="relative w-[70%] h-full overflow-hidden">
+            <img
+        src="c:\Users\Dell\OneDrive\Desktop\images\f80d3a949fa3e26f73af3f318eeda0aa-removebg-preview.png"
+        class="auto-drink drink-one absolute inset-0 m-auto w-[300px] md:w-[500px] h-[500px] object-contain drop-shadow-2xl"
+        alt="Iced coffee"
+      >
+      <img
+        src="C:\Users\Dell\OneDrive\Desktop\images\e378592766cf9f7b8a5e30aae5696355-removebg-preview.png"
+        class="auto-drink drink-two absolute inset-0 m-auto w-[320px] md:w-[500px] h-[530px] object-contain drop-shadow-2xl"
+        alt="Berry coffee"
+      ></div>
+    <div class="text-amber-50  flex justify-center items-center gap-10 bg-[#E7D8B7] h-[600px] w-[90%] mx-auto overflow-hidden rounded flex-col">
+     <i class="fa-solid fa-seedling  text-[40px] font-bold text-[#ffffff]"></i>
+        <p class=" text-center  text-[25px] pt-10px text-[#603808]  ">Discover a diverse menu of handcrafted coffees, from bold espressos to refreshing cold brews.</p>
+         <i class="fa-solid fa-star text-[40px] font-bold  text-[#ffffff]"></i>
+        <p class=" text-center pt-[20px] text-[25px] text-[#603808]">Recognized for premium coffee, exceptional service, and an atmosphere customers love to revisit
+
+        </p>
+      </div>
+  </div>
+      
+  
+<!-- hero section ends here -->
+    <!-- footer starts here  -->
+     
+    <footer class="mt-[100%]  text-[#FFF8EF] font-bold text-[18px] border-[#000000] border-t-3">
+      <div class="coffee-slide" data-bg="#938F84">
+      <ul class=" justify-between gap-10 pr-20 pl-10  pt-[25px] flex item-start flex-col md:flex-row ">
+        <li class="w-[250px]">A coffee shop is a relaxing place serving coffee,
+         snacks, and beverages where people socialize, work, or unwind comfortably.</li>
+        <li >Location
+          <p>Beta Plaza , Greater Noida , Uttar Pradesh</p>
+          <p><i class="fa-solid fa-phone text-[#FFF8F0]" ></i> XXXXXXXXXX</p>
+          <p><i class="fa-regular fa-envelope text-[#FFF8F0]"></i> business@.com</p>
+        </li>
+        <li>Quick Links
+          <link href="#" class="block" >Contact Us</link>
+          <link href="#" class="block" >Feedback</link>
+          <link href="#" class="block" >FAQs</link>
+          <link href="#" class="block" >Locations</link>
+          <link href="#" class="block" >Privacy Policy</link>
+          <link href="#" class="block" >Careers</link>
+          <link href="#" class="block" >Blog</link>
+  
+        </li>
+        <div >
+          <li>Follow Us
+            <br>
+            <i class="fa-brands fa-instagram  text-[#FFF8F0] text-[25px] "></i>
+            <i class="fa-brands fa-facebook  text-[#FFF8F0] text-[25px] "></i>
+            <i class="fa-brands fa-x-twitter text-[#FFF8F0] text-[25px] "></i>
+            <i class="fa-brands fa-linkedin text-[#FFF8F0] text-[25px] "></i>
+            <i class="fa-brands fa-youtube  text-[#FFF8F0] text-[25px] "></i>
+          </li>
+        </div>
+      </ul>
+      <br>
+      <div>
+         <h1 class="text-center ">Copyright <i class="fa-solid fa-copyright text-[#FFF8F0] text-[15px]"></i> coffee shop</h1>
+         <h1 class="text-center">All right reserved | Design,Developed & Maintained by sakshu <i class="fa-solid fa-heart text-[#FFF8F0] "></i></h1>
+       </div>
+       </div>
+    </footer>
+    <!-- fotter ends here -->
+
+<script src="./js/javascript.js"></script>
+</body>
+</html>

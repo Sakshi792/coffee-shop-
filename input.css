@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+@keyframes bestSellerPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.04);
+    opacity: 0.9;
+  }
+}
+
+@keyframes bestSellerShine {
+  0% {
+    background-position: -200%;
+  }
+
+  100% {
+    background-position: 200%;
+  }
+}
+
+@layer utilities {
+  .best-seller-animation {
+    animation: bestSellerPulse 2.5s ease-in-out infinite;
+  }
+
+  .best-seller-shine {
+    background: linear-gradient(
+      90deg,
+      #fff8ef 0%,
+      #fff8ef 35%,
+      #f7c873 50%,
+      #fff8ef 65%,
+      #fff8ef 100%
+    );
+    background-size: 200% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: bestSellerShine 3s linear infinite;
+  }
+}
+@keyframes drinkOneShow {
+  0%, 45% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+
+  50%, 95% {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes drinkTwoShow {
+  0%, 45% {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+
+  50%, 95% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+}
+
+@layer utilities {
+  .auto-drink {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .drink-one {
+    animation: drinkOneShow 6s infinite;
+  }
+
+  .drink-two {
+    animation: drinkTwoShow 6s infinite;
+  }
+}
