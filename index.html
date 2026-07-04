@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,75 +18,110 @@
         Coffee 
         </h1>
         <div class="flex text-center justify-center gap-30 pr-8 mt-6 text-[#ffffff] font-bold text-[18px] ">
-          
-            <h1 class="hidden md:block ">Home</h1>
+            <a href="#home" class="hidden md:block hover:text-[#F5D28A]">Home</a>
             <h1 class="hidden md:block" >About Us </h1>
             <h1 class="hidden md:block">Menu</h1>
-            <h1 class="hidden md:block">Testimonials</h1>
+             <a href="#Why" class="hidden md:block hover:text-[#F5D28A]">Why Choose Us</a>
             <h1 class="hidden md:block">Gallery</h1>
-            <h1 class="hidden md:block">Contact Us</h1>
+            <a href="#contact" class="hidden md:block hover:text-[#F5D28A]">Contact Us</a>
             <link href="#" >
             <i class="fa-solid fa-bars text-[25px]"></i></link>
         </div>
     </div>
     </header>
     <!-- header end here -->
-     <h2 class="text-[45px] md:text-[70px] font-bold best-seller-animation best-seller-shine flex justify-center items-center mb-[-90px]">
+     <h2 class="text-[45px] md:text-[70px] font-bold best-seller-animation best-seller-shine flex justify-center items-center mb-[-90px] hidden md:flex ">
   Best Seller
 </h2>
-    <!-- maain section image starts here -->
+
+    <!-- home section starts here -->
     <!-- 1st image start here -->
-     <section id="coffeeSlider" class="w-full max-w-full min-h-screen pt-15 flex  overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar ">
-      <div class=" coffee-slide min-w-full flex justify-center items-center snap-center flex-col md:flex-row min-h-screen gap-10 px-6  " data-bg="#DDC2A0">
-        <div>
-          <h2 class="text-[42px] mb-4 text-amber-50 font-bold text-left translate-x-[-100px]">Cappiccino</h2>
-          <p class="font-bold text-[25px]  w-[250px] text-[#FFF8F0] text-left translate-x-[-100px] ">
-          Rich espresso blended with steamed milk and creamy foam, creating a smooth, balanced coffee with a comforting taste.</p>
-        </div>
-        <img src="c:\Users\Dell\OneDrive\Desktop\images\cup-removebg-preview.png" class="w-[320px] md:w-[500px] " alt="Cappuccino">
-      </div>
+     <div id="home">
+     <section id="coffeeSlider" class="w-full max-w-full min-h-screen flex  overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar ">
       <div class="hidden lg:flex items-center justify-center">
       <button id="nextBtn" class="absolute right-[8%] top-[58%] bg-[#FFF8EF] text-[#6F4E37] rounded-full text-[40px] w-[60px] h-[60px]  ">
         <i class="fa-solid fa-circle-arrow-right  "></i>
       </button>
     </div>
+      
+    <div class=" coffee-slide min-w-full flex justify-center items-center snap-center flex-col md:flex-row min-h-screen gap-10 px-6  " data-bg="#DDC2A0">
+        <div>
+          <h2 class="text-[49px] mb-4 text-amber-50 font-bold text-left translate-x-[-100px]">Cappiccino</h2>
+          <p class="font-bold text-[25px]  w-[250px] text-[#FFF8F0] text-left translate-x-[-100px] ">
+          Rich espresso blended with steamed milk and creamy foam, creating a smooth, balanced coffee with a comforting taste.</p>
+        </div>
+        <img src="c:\Users\Dell\OneDrive\Desktop\images\cup-removebg-preview.png" class="w-[320px] md:w-[450px] " alt="Cappuccino">
+      </div>
+      
 
     <!-- 1st image end here -->
 
       <!-- 2nd image start here -->
       <div class="coffee-slide min-w-full flex justify-center items-center snap-center flex-col md:flex-row min-h-screen gap-10 px-6 " data-bg="#3E0C02">
         <div>
-          <h1 class="font-bold text-[42px] mb-4 text-amber-50  text-left translate-x-[-100px]">Cold Coffee</h1>
+          <h1 class="font-bold text-[45px] mb-6 text-amber-50  text-left translate-x-[-100px]">Cold Coffee</h1>
         <p class="font-bold text-[25px] w-[250px] text-amber-50 text-left translate-x-[-100px]">  A chilled and creamy coffee blended with milk, ice, and rich coffee flavor. Smooth, refreshing, and perfect for a cool break.</p>
       </div>
         <img src="c:\Users\Dell\OneDrive\Desktop\images\s11728_cold_coffee_isolated_on_white_background_4c14cfac-1154-4664-8c53-d4f019c2ccc9_0-photoroom.png" class="w-[450px]" alt="Cold Coffee">
       </div>
 
       <!-- 2nd image end here -->
-
-
-    <!-- 3rd image start here  -->
-      <div class="coffee-slide min-w-full flex flex-col md:flex-row justify-center items-center snap-center" data-bg="#603F2C" >
+      
+      <!-- 3rd image start here -->
+     
+   <div class="coffee-slide min-w-full flex justify-center items-center snap-center flex-col md:flex-row min-h-screen gap-10 px-6 " data-bg="#B18A47">
         <div>
-          <h1 class="font-bold text-[42px] mb-4 text-amber-50  text-left translate-x-[-100px]">Filter Coffee</h1>
-          <p class="font-bold text-[25px] w-[250px] text-amber-50 text-left translate-x-[-100px]">A traditional South Indian coffee brewed strong and mixed with hot milk for a rich aroma, bold taste, and smooth finish.</p>
-        </div>
-        <img src="c:\Users\Dell\OneDrive\Desktop\images\Recipes_-_South_Indian_Filter_Coffee-removebg-preview.png" class="w-112.5" alt="Filter Coffee">
+          <h1 class="font-bold text-[42px] mb-4 text-amber-50  text-left translate-x-[-100px]"> Iced Mocha</h1>
+        <p class="font-bold text-[25px] w-[250px] text-amber-50 text-left translate-x-[-100px]">A delightful blend of rich espresso, creamy milk, and smooth chocolate, creating the perfect balance of sweetness and bold coffee flavor.</p>
       </div>
-    </section> 
-    <!-- 3rd image end here -->
-    <!-- main section imag end here -->
+        <img src="c:\Users\Dell\OneDrive\Desktop\images\download.png" class="w-[550px]" alt="Iced Mocha">
+      </div>
+      <!-- 3rd image end here -->
 
-    <!-- hero section starts here -->
-     <div class="font-bold text-[#ffffff] text-center">
+        <!-- 4th image start here  -->
+    
+      <div class="coffee-slide min-w-full flex justify-center items-center snap-center flex-col md:flex-row min-h-screen gap-10 px-6 " data-bg="#8B5E3F">
+        <div>
+          <h1 class="font-bold text-[45px] mb-6 text-amber-50  text-left translate-x-[-100px]">Filter Coffee</h1>
+        <p class="font-bold text-[27px] w-[250px] text-amber-50 text-left translate-x-[-100px]">A traditional brewing method that produces a rich, full-bodied coffee with a smooth and balanced flavor profile.</p>
+      </div>
+        <img src="c:\Users\Dell\OneDrive\Desktop\images\Recipes_-_South_Indian_Filter_Coffee-removebg-preview.png" class="w-[450px]" alt="Filter Coffee">
+      </div>
+      <!-- 4h image end here -->
+    </section> 
+     </div>
+
+    
+    <!-- home section end here -->
+     <!-- about us section start here -->
+        <div class="bg-[#F1E3C8] w-[90%] h-[500px] mx-auto p-8 ">
+          <div>
+            <h1 class="text-[30px] font-bold flex justify-center text-center pt-[5px]">About Us</h1>
+          </div>
+          <!-- <div class="mt-6">
+          <img src="c:\Users\Dell\OneDrive\Desktop\images\cozy-coffee-shop-stockcake.webp" class="w-[400px] h-[400px]  ml-8" alt="Coffee coffee">
+        </div> -->
+        <div class="w-[60%]">
+          <p class="text-[24px] text-[#603808] w-[500px] translate-x-[100px]">
+            welcome to our coffee shop, where passion meets the perfect cup. We are dedicated to crafting exceptional coffee experiences for our customers. Our skilled baristas meticulously select the finest beans, ensuring each cup is brewed to perfection. From rich espressos to velvety lattes, we offer a diverse menu that caters to every coffee lover's taste. Step into our cozy ambiance, where the aroma of freshly ground coffee fills the air, and let us take you on a journey of flavor and warmth. Whether you're seeking a moment of relaxation or a place to connect with friends, our coffee shop is your haven for indulgence and comfort.
+          </p>
+        </div>
+        </div>
+          
+        
+
+      <!-- about us section end here -->
+
+    <!-- why choose us  section starts here -->
+     <div id="Why" class="font-bold text-[#ffffff] text-center ">
       <h1 class="text-[30px]">Brewed Fresh for Every Mood</h1>
       <p class="font-normal text-[20px]">A cozy blend of rich flavors, fresh brews, and handpicked favorites made to match every coffee mood.</p>
     </div>
     <div class="flex justify-center items-center gap-10 mt-10 bg-[#F1E3C8] h-[600px] w-[90%] mx-auto overflow-hidden ">
 
-       <div class="text-amber-50  flex justify-center items-center gap-10  bg-[#E7D8B7] h-[600px] w-[90%] mx-auto overflow-hidden rounded flex-col ">
+       <div class="text-amber-50  flex justify-center items-center gap-10  bg-[#E7D8B7] h-[600px] w-[90%] mx-auto overflow-hidden rounded flex-col hidden md:flex">
        <i class="fa-solid fa-mug-hot text-[40px] font-bold text-[#ffffff]"></i>
-        <p class=" text-center  text-[25px] pt-10px text-[#603808]  ">Freshly brewed cups crafted with passion, bringing rich flavors and memorable coffee moments every day.</p>
+        <p class=" text-center  text-[25px] pt-[10px] text-[#603808]  ">Freshly brewed cups crafted with passion, bringing rich flavors and memorable coffee moments every day.</p>
          <i class="fa-solid fa-face-smile text-[40px] font-bold  text-[#ffffff]"></i>
         <p class=" text-center pt-[20px] text-[25px] text-[#603808]">Recognized for premium coffee, exceptional service, and an atmosphere customers love to revisit
 
@@ -103,7 +138,7 @@
         class="auto-drink drink-two absolute inset-0 m-auto w-[320px] md:w-[500px] h-[530px] object-contain drop-shadow-2xl"
         alt="Berry coffee"
       ></div>
-    <div class="text-amber-50  flex justify-center items-center gap-10 bg-[#E7D8B7] h-[600px] w-[90%] mx-auto overflow-hidden rounded flex-col">
+    <div class="text-amber-50  flex justify-center items-center gap-10 bg-[#E7D8B7] h-[600px] w-[90%] mx-auto overflow-hidden rounded flex-col hidden md:flex">
      <i class="fa-solid fa-seedling  text-[40px] font-bold text-[#ffffff]"></i>
         <p class=" text-center  text-[25px] pt-10px text-[#603808]  ">Discover a diverse menu of handcrafted coffees, from bold espressos to refreshing cold brews.</p>
          <i class="fa-solid fa-star text-[40px] font-bold  text-[#ffffff]"></i>
@@ -114,11 +149,12 @@
   </div>
       
   
-<!-- hero section ends here -->
+<!-- why choose us section ends here -->
+
     <!-- footer starts here  -->
      
-    <footer class="mt-[100%]  text-[#FFF8EF] font-bold text-[18px] border-[#000000] border-t-3">
-      <div class="coffee-slide" data-bg="#938F84">
+    <footer  id="contact" class=" text-[#FFF8EF] font-bold text-[18px] border-[#000000] border-t-3 mt-40">
+      <div class="coffee-slide" data-bg="#938F84 ">
       <ul class=" justify-between gap-10 pr-20 pl-10  pt-[25px] flex item-start flex-col md:flex-row ">
         <li class="w-[250px]">A coffee shop is a relaxing place serving coffee,
          snacks, and beverages where people socialize, work, or unwind comfortably.</li>
